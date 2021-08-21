@@ -86,7 +86,7 @@ public class Jump_View extends View {
         paint_ball=new Paint();
         paint_text=new Paint();
         paint_text.setColor(Color.parseColor("#ff4db8"));
-        paint_text.setTextSize(100);
+        paint_text.setTextSize(90);
         paint_ball.setColor(Color.parseColor("#faff70"));
         paint.setColor(Color.parseColor("#70deff"));
         paint.setTextSize(100);
@@ -115,7 +115,7 @@ public class Jump_View extends View {
 
         if(start==0){
             cy=rect.top-rad;
-            canvas.drawText("Tap above line to Play",30*getWidth()/100,9*getHeight()/10,paint_text);
+            canvas.drawText("Tap above line to Play",10,9*getHeight()/10,paint_text);
 
         }
         if(start==2)
